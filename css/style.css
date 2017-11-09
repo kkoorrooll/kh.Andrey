@@ -116,10 +116,12 @@ p{
 
 .we-create{
 	padding:20px 50px;
-	margin:30px 110px;
+	
 	background: rgba(255,255,255,.4);
+	margin:30px 110px;
 	text-align: left;
 }
+
 .wp-pic{
 	margin-bottom:20px;
 }
