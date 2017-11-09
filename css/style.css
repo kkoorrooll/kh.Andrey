@@ -74,7 +74,7 @@ h2{
 h3{
 	font-family: 'Montserrat', sans-serif;
 	color:#222222;
-	font-size:16px;
+	font-size:20px;
 	margin:0 0 5px 0;
 	text-transform:uppercase;
 	font-weight:400;
@@ -98,7 +98,7 @@ p{
 .header{
 	text-align:center;
 	background:url(../img/11.jpg) left top repeat;
-	padding:80px 0;
+	padding:50px 0;
 }
 .logo{
 	width:130px;
@@ -107,15 +107,18 @@ p{
 .header h1{
 	font-family: 'Montserrat',sans-serif;
 	font-size:50px;
-	font-weight:400;
+	font-weight:600;
 	letter-spacing: -1px;
+	text-shadow: 2px 2px 5px #000000;
 	margin:0 0 22px 0 ;
 	color:#fff;
 }
 
 .we-create{
-	padding:0;
-	margin:35px 0 55px;
+	padding:20px 50px;
+	margin:30px 110px;
+	background: rgba(255,255,255,.4);
+	text-align: left;
 }
 .wp-pic{
 	margin-bottom:20px;
@@ -123,15 +126,18 @@ p{
 .we-create li{
 	display:inline-block;
 	font-family: 'Montserrat',sans-serif;
-	font-size:14px;
-	color: #bcbcbc;
+	font-size:20px;
+	color: #322F2F;
 	text-transform: uppercase;
-	font-weight: 400;
-	margin:0 5px 0 0;
-	padding:0 0 0 15px;
+	font-weight: 600;
+	margin:0 0 5px;
 }
 .we-create li:first-child{
 	background:none;
+}
+
+.we-create li:last-child{
+	margin:0;
 }
 
 .start-button {
@@ -435,7 +441,7 @@ img {
 	text-decoration:none;
 }
 .client li a h3{
-	color:#ffffff;
+	color:#FFFFFF;
 }
 .client li a span{
 	color:#f1f1f1;
@@ -445,13 +451,13 @@ img {
 	width:68px;
 	height:68px;
 	margin:0 auto;
-	border:2px solid #7cc576;
+	border:2px solid #151715;
 	border-radius:50%;
 	display:block;
 	line-height:68px;
 	text-align:center;
 	font-size:27px;
-	color:#7cc576;
+	color:#000000;
 	cursor: pointer;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
